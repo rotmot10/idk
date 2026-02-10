@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: Arial;
   text-align: center;
-  background-image: url("images/back1.gif");
+  background-image: url("back1.gif");
   background-size: 120px 120px;
   background-repeat: repeat;
 }
@@ -16,7 +16,7 @@ body {
 #startScreen {
   position: fixed;
   inset: 0;
-  background-image: url("images/back2.gif");
+  background-image: url("back2.gif");
   background-size: 120px 120px;
   background-repeat: repeat;
   display: flex;
@@ -82,7 +82,7 @@ button {
   display: none;
   position: fixed;
   inset: 0;
-  background-image: url("images/back2.gif");
+  background-image: url("back2.gif");
   background-size: 120px 120px;
   background-repeat: repeat;
   justify-content: center;
@@ -107,3 +107,4 @@ button {
   50% { filter: brightness(1.3); }
   100% { filter: brightness(1); }
 }
+
