@@ -11,13 +11,13 @@ const noMessages = [
 ]
 
 const noImages = [
-  "images/pic1.JPG",
-  "images/pic2.jpeg",
-  "images/pic3.JPG",
-  "images/pic5.jpeg",
-  "images/pic6.jpeg",
-  "images/pic7.gif",
-  "images/pic8.jpg"
+  "pic1.JPG",
+  "pic2.jpeg",
+  "pic3.JPG",
+  "pic5.jpeg",
+  "pic6.jpeg",
+  "pic7.gif",
+  "pic8.jpg"
 ]
 
 const startScreen = document.getElementById("startScreen")
@@ -63,13 +63,14 @@ function moveNoButton() {
 
 /* YES BUTTON */
 yesBtn.addEventListener("click", () => {
-  mainImage.src = "images/pic4.jpeg"
+  mainImage.src = "pic4.jpeg"
 
   setTimeout(() => {
     finalScreen.style.display = "flex"
     finalScreen.innerHTML = `
-      <img src="images/love.png">
+      <img src="love.png">
       <h1>HAPPY VALENTINES</h1>
     `
   }, 600)
 })
+
